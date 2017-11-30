@@ -247,7 +247,7 @@ def digits_in_power(n, k):
     num = 1
 
     for i in range(k):
-        num = num * n
+        num = num*n
 
     return sum_of_digits(num)
 
@@ -327,7 +327,7 @@ def fancy_sums_of_digits(n):
     # ------------------------------------------------------------------
 
     x = sum_of_digits(n ** 1000)
-    y = sum_of_digits(n ** 999)
+    y = sum_of_digits(n **999)
     return sum_of_digits(x**y)
 
 # ----------------------------------------------------------------------
